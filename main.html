@@ -1,1 +1,121 @@
+Personal Profile Webpage Creation
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        section {
+            margin: 20px;
+            padding: 15px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #4CAF50;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+        }
+        .skills-bar {
+            margin: 10px 0;
+        }
+        .skills-bar div {
+            display: flex;
+            justify-content: space-between;
+        }
+        .bar {
+            height: 20px;
+            background-color: #ddd;
+            border-radius: 10px;
+            overflow: hidden;
+            margin: 5px 0;
+        }
+        .bar span {
+            display: block;
+            height: 100%;
+            background-color: #4CAF50;
+            text-align: right;
+            color: white;
+            line-height: 20px;
+            padding-right: 5px;
+        }
+        img {
+            display: block;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>About me</h1>
+    </header>
+
+    <section>
+        <h2>Name</h2>
+        <p>John Doe</p>
+    </section>
+
+    <section>
+        <h2>Email</h2>
+        <p>johndoe@example.com</p>
+    </section>
+
+    <section>
+        <h2>Profile</h2>
+        <p>Senior Engineer, Product Support</p>
+    </section>
+
+    <section>
+        <h2>About Me</h2>
+        <p>I am a dedicated software engineer with a passion for solving complex problems and delivering high-quality products.</p>
+    </section>
+
+    <section>
+        <h2>Skills</h2>
+        <div class="skills-bar">
+            <div>
+                <span>Java</span><span>80%</span>
+            </div>
+            <div class="bar">
+                <span style="width: 80%;"></span>
+            </div>
+            <div>
+                <span>Spring Boot</span><span>75%</span>
+            </div>
+            <div class="bar">
+                <span style="width: 75%;"></span>
+            </div>
+            <div>
+                <span>Kafka</span><span>70%</span>
+            </div>
+            <div class="bar">
+                <span style="width: 70%;"></span>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Photo</h2>
+        <img src="your-photo.jpg" alt="Your Photo">
+    </section>
+</body>
+</html>
